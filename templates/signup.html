@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Sign Up</title></head>
+<body>
+<form method='post'> 
+	{% csrf_token %}
+	{% for each_field in form2 %}
+    <table>
+    <tr>
+        <td>{{each_field.label}}</td>
+        <td>{{each_field}}</td>
+        <td>{{each_field.errors}}</td>
+    </tr>
+    <tr><td></td><td></td><td>
+        {{each_field.help_text}}</td></tr>
+    {% endfor %}
+</table>
+	<input type='submit' value='Sign Up'>
+</form> 
+</body>
+</html>

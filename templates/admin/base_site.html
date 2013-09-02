@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends "base.html" %}
 {% load i18n %}
 
@@ -5,6 +6,15 @@
 
 {% block branding %}
 <h1 id="site-name">{% trans 'Project Management System' %}</h1>
+=======
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'Site admin' %}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans 'Task Manager' %}</h1>
+>>>>>>> 25b6aa8f3bbdef582677c44362785359baceeb94
 {% endblock %}
 
 {% block nav-global %}{% endblock %}
