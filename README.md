@@ -1,4 +1,4 @@
-intern
+ToDo Application
 ======
 
-this repository contains projects and files that are being used during internship at codeyssus
+This is a simple ToDo application developed during internship at Codeyssus Labs.
